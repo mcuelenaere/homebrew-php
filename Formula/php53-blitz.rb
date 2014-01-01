@@ -20,7 +20,7 @@ class Php53Blitz < AbstractPhp53Extension
       blitz.auto_escape=0
       blitz.check_recursion=1
       blitz.comment_close="*/"
-      blitz.comment_open"/*"
+      blitz.comment_open="/*"
       blitz.enable_alternative_tags=1
       blitz.enable_callbacks=1
       blitz.enable_comments=0
