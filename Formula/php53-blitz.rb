@@ -3,8 +3,10 @@ require File.join(File.dirname(__FILE__), 'abstract-php-extension')
 class Php53Blitz < AbstractPhp53Extension
   init
   homepage 'http://alexeyrybak.com/blitz/blitz_en.html'
-  url 'http://alexeyrybak.com/blitz/blitz-0.8.6.tar.gz'
-  sha1 '688ceb3579d9da6cd0b84122445ebe7c847c4525'
+  url 'http://alexeyrybak.com/blitz/all-releases/blitz-0.8.10.tar.gz'
+  sha1 'b7d1bdba4ba9e2e2dc230e13ea55a4fe74b0cbe2'
+
+  head 'https://github.com/alexeyrybak/blitz.git'
 
   def install
     safe_phpize

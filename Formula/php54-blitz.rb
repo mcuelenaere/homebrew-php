@@ -3,8 +3,8 @@ require File.join(File.dirname(__FILE__), 'abstract-php-extension')
 class Php54Blitz < AbstractPhp54Extension
   init
   homepage 'http://alexeyrybak.com/blitz/blitz_en.html'
-  url 'http://alexeyrybak.com/blitz/blitz-0.8.9.tar.gz'
-  sha1 'aa4126fb64bef65efc27ea23d64dab087c8e7282'
+  url 'http://alexeyrybak.com/blitz/all-releases/blitz-0.8.10.tar.gz'
+  sha1 'b7d1bdba4ba9e2e2dc230e13ea55a4fe74b0cbe2'
 
   head 'https://github.com/alexeyrybak/blitz.git'
 
