@@ -4,6 +4,9 @@ class Php71Geos < AbstractPhp71Extension
   init
   desc "PHP bindings for GEOS"
   homepage "https://git.osgeo.org/gogs/geos/php-geos"
+  url "https://git.osgeo.org/gogs/geos/php-geos/archive/1.0.0rc1.tar.gz"
+  version "1.0.0rc1"
+  sha256 "63721d9dc2051aa03034b343c0b334e9cb11643e7009ea9be2e69f51f7b90f71"
   head "https://git.osgeo.org/gogs/geos/php-geos.git"
 
   depends_on "geos"
